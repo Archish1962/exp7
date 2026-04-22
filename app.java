@@ -1,6 +1,6 @@
 public class app {
     public static void main(String[] args) {
-        int p = 1000;
+        int p = 1030;
         int r = 3;
         int t = 4;
 
