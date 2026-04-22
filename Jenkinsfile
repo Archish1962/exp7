@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('checkout'){
             steps{
-                git "https://github.com/Archish1962/exp7.git"
+                git 'https://github.com/Archish1962/exp7.git'
             }
         }
 
@@ -16,7 +16,7 @@ pipeline{
 
         stage('Run'){
             steps{
-                bat 'java app.java'
+                bat 'java app'
             }
         }
 
