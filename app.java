@@ -1,7 +1,7 @@
 public class app {
     public static void main(String[] args) {
         int p = 7552;
-        int r = 6;
+        int r = 4;
         int t = 3;
 
         double si = (p*r*t)/100;
